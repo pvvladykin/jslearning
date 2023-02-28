@@ -1,0 +1,10 @@
+
+<script>
+    let ask = (question, yes, no) => 
+    confirm(question) ? yes() : no();
+    
+
+    ask('Are you agree?', 
+    () => alert('You agreed'), 
+    () => alert("You didn't agree" ))
+</script>

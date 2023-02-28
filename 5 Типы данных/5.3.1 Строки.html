@@ -1,0 +1,13 @@
+<script>
+    'use strict';
+    function checkSpam(str) {
+        let target1 = 'viagra'
+        let target2 = 'xxx'
+
+        return str.toLowerCase().includes(target1) || str.toLowerCase().includes(target2)
+    }
+
+    alert( checkSpam('buy ViAgRA now') )
+    alert( checkSpam('free xxxxx') )
+    alert( checkSpam("innocent rabbit") )
+</script>

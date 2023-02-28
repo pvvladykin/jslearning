@@ -1,0 +1,10 @@
+
+<script>
+    function question(q, yes, no) {
+        confirm(q) ? yes() : no();
+    }
+    
+    question('Try again?', 
+    function() {alert("Ok, let's try again")}, 
+    function() {alert('No, ok')});
+</script>
